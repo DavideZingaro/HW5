@@ -1,4 +1,5 @@
-# HW5
+# Homework 5 - Explore California and Nevada with graphs
+
 this repository contain:
 
 * `func_1.py`: suggested python file that contains functions for Functionality 1 
