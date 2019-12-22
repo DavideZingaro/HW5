@@ -171,4 +171,26 @@ def visualization_4(visited, Nodes, coord):
     # We need to removit because otherwise the bulitin map() function doesn't work well
     del folium
  
+# the visualization part used for func_1
+def visualization_1(Nodes, coord):
+    # we import and delet it into the func 
+    import folium
+    #starting node for center the map
+    starting = coord[Nodes[0]]
+    mapit = folium.Map( location=[starting[1], starting[0]], zoom_start = 10 )
+    #plot the vertices selected by the user
+    for i in range(1, len(Nodes)):
+        v = coord[Nodes[i]]
+        folium.Marker((v[1], v[0]), icon=folium.Icon(color='blue', icon='cloud') , radius=8 ).add_to(mapit)
+    v = coord[Nodes[0]]
+    folium.Marker((v[1], v[0]), icon=folium.Icon(color='green', icon='cloud') , radius=8 ).add_to(mapit)
+    # save map
+    mapit.save(path + 'map.html')
+    # open map on browser
+    webbrowser.open(path + 'map.html',new = 2)
+    
+    
+    # We need to removit because otherwise the bulitin map() function doesn't work well
+    del folium
+ 
 

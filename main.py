@@ -17,6 +17,9 @@ import func_1 as f_1
 import func_3 as f_3
 import func_4 as f_4
 
+# is a list of function for built the graph
+built_graph = [f_4.d, f_4.t, f_4.n]
+
 #save the coordinates
 coord = f_4.coordinates({})
 
@@ -40,8 +43,7 @@ while True:
     else:
         print('\nTry again \n\n')
 
-# is a list of function for built the graph
-built_graph = [f_4.d, f_4.t, f_4.n]
+
 #built the graph
 graph = built_graph[what-1](nx.Graph())
 
@@ -68,10 +70,12 @@ if func == 1:
                 break
         except:
             print('\nPlease try again\n')
-    c = set()
     b = {start : {'weight' : 0}} 
     a = list(b.keys())[0]
-    c = f_1.f1(graph, b, dist, c)
+    c = f_1.f1(graph, b, dist)
+    points = list(c)
+    points.append(start)
+    f_4.visualization_1(points, coord)
     
 
 if func == 2:
@@ -122,6 +126,4 @@ if func == 4:
     except:
          print("Cannot reach the end from this starting node")
     
-
-
 
