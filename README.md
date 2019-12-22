@@ -13,7 +13,10 @@ This repository contains:
 
 ## func_1
 In this file there are the functions to perform the functionality 1 task. Here we find all the nodes which distance is equal or lower than a starting node; these nodes can be adjacent or not to the initial one.
+
 ## func_2
+In this file there are the functions to perform the functionality 2 task: implementing an algorithm that returns the set of roads (edges) that enable the user to visit all the places. We want this set to be the ones whose sum of distances is minimum.
+
 ## func_3
 In this file there are the functionds to perform the functionality 3 task. Here we find the shortest ordered route from a starting node **H** and a succession of ordered nodes **p = [p_1, ..., p_n]**. To complete this exercise, we divided it into **n** sub-problems, performing the shortest route between two consecutive nodes and then linking them. We implemented the solution following the Dijkstra method.
 ## func_4
@@ -33,3 +36,10 @@ This file also contains the function for plot the points on a map. It was made w
 The initial and final vertices are in green and red respectively, the vrtices desired by the user in blue and the intermediate vertices are always darker in color from the beginning to the end.
 
 The map is saved in the folder and automatically opened in the browser.
+
+
+## Group members 
+
+- Francesco Pezone
+- Davide Zingaro
+- Nathan Bry 
