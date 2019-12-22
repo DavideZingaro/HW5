@@ -71,7 +71,7 @@ def coordinates(coord):
 # to find the best path we use the a kind of Nearest Neighbour Algorithm    
 def shortest_path_l_r(dcf_graph, start, end):    
     visited = [start, end]
-   tot_dist = 0
+    tot_dist = 0
     while len(visited) < len(dcf_graph):
         # this is for one side
         min_dist = np.inf
