@@ -8,9 +8,10 @@ this repository contain:
 * `main.py`: the main python file.
 
 ## func_1
-
+In this file there are the functions to perform the functionality 1 task. Here we find all the nodes which distance is equal or lower than a starting node; these nodes can be adjacent or not to the initial one.
 ## func_2
 ## func_3
+In this file there are the functionds to perform the functionality 3 task. Here we find the shortest ordered route from a starting node **H** and a succession of ordered nodes **p = [p_1, ..., p_n]**. To complete this exercise, we divided it into **n** sub-problems, performing the shortest route between two consecutive nodes and the linking them. We implemented the solution following the Dijkstra method.
 ## func_4
 In this file there are the functions to read the .gz files and save them in the networkx.Graph () format and the function to save the coordinates in a dictionary.
 In order to find the best route we used a variant of the Nearest Neighbor Algorithm performed on a completely connected graph in which the weights of the edges are the distances as the crow flies between the vertices.
