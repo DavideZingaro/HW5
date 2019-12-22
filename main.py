@@ -14,6 +14,7 @@ import matplotlib.image as mpimg
 from itertools import combinations 
 from scipy.spatial import distance
 import func_1 as f_1
+import func_2 as f_2
 import func_3 as f_3
 import func_4 as f_4
 
@@ -79,7 +80,27 @@ if func == 1:
     
 
 if func == 2:
-    pass
+    # choose starting point
+    while True:
+        try:
+            start = int(input('Choose the starting vertex   '))
+            if start > 1890815 or start < 1:
+                print(print('\nPlease enter values ​​between 1 and 1890815\n'))
+            else:
+                break
+        except:
+            print('\nPlease enter values ​​between 1 and 1890815\n')
+            
+    # choose ending point
+    while True:
+        try:
+            end = int(input('Choose the starting vertex   '))
+            if end > 1890815 or end < 1:
+                print(print('\nPlease enter values ​​between 1 and 1890815\n'))
+            else:
+                break
+        except:
+            print('\nPlease enter values ​​between 1 and 1890815\n')      
 
 if func == 3:
     while True:
