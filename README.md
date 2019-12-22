@@ -4,7 +4,7 @@ this repository contain:
 * `func_1.py`: suggested python file that contains functions for Functionality 1 
 * `func_2.py`: suggested python file that contains functions for Functionality 2 
 * `func_3.py`: suggested python file that contains functions for Functionality 3 
-* `func_4.py`: suggested python file that contains functions for Functionality 4 and Visualization 3, 4.
+* `func_4.py`: suggested python file that contains functions for Functionality 4 and Visualization 1, 3, 4.
 * `main.py`: the main python file.
 
 ## func_1
