@@ -1,21 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Dec 22 23:07:18 2019
+Created on Sun Dec 22 09:26:32 2019
 
 @author: Davide
 """
 
-def func_3(graph, h, p):
-    a = []
-    for i in range(len(p)):
-        a.extend(s_path(C, h, p[i])) 
-        h = p[i]
-    result = sorted(set(a), key=a.index)
-    return result
-
-
-
-def s_path(graph, startnode, endnode):
+def f3(graph, startnode, endnode):
     # Shortest paths from startnode
     shortest_paths = {startnode: (None, 0)}
     # Initial node
@@ -59,3 +49,4 @@ def s_path(graph, startnode, endnode):
     # Reverse path
     path = path[::-1]
     return path
+
