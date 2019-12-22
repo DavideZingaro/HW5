@@ -1,5 +1,8 @@
 # Homework 5 - Explore California and Nevada with graphs
 
+![alt text](https://camo.githubusercontent.com/ae26f5178a3c7d279181fcc5a36c00269462732a/68747470733a2f2f31696763306f6a6f73736134313268316533656b386431772d7770656e67696e652e6e6574646e612d73736c2e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031382f30332f393738303932313333383339302e6a7067 "Logo Title Text 1" )
+
+
 this repository contain:
 
 * `func_1.py`: suggested python file that contains functions for Functionality 1 
